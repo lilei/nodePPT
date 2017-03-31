@@ -109,7 +109,8 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 
 ### 市面上主要的css预处理器：Less\Sass\Stylus
----
+
+
 | Less | Sass | Stylus
 :-------|:------:|-------:|--------
 环境 |js/nodejs | Ruby(这列右对齐) | nodejs(高亮) {:.highlight}
@@ -119,7 +120,6 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 ---
 ## text
------
 
 <span class="text-danger">.text-danger</span> <span class="text-success">.text-sucess</span><span class="text-primary">.text-primary</span>
 
@@ -132,15 +132,14 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 <span class="yellow">.yellow</span><span class="yellow2">.yellow2</span><span class="yellow3">.yellow3</span><span class="green">.green</span><span class="green2">.green2</span><span class="green3">.green3</span>
 
----
 ## label and link
 <span class="label label-primary">.label.label-primary</span><span class="label label-warning">.label.label-warning</span><span class="label label-danger">.label.label-danger</span><span class="label label-default">.label.label-default</span><span class="label label-success">.label.label-success</span><span class="label label-info">.label.label-info</span>
 
 <a href="#">link style</a> <mark>mark</mark>
 
 ---
+
 ## blockquote
-----
 
 > nodeppt可能是迄今为止最好用的web presentation <small>三水清</small>
 
@@ -151,7 +150,6 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 ---
 ## buttons
-----
 
 <button class="btn btn-default">.btn .btn-default</button>  <button class="btn btn-primary">.btn.btn-lg.btn-primary</button> <button class="btn btn-warning">.btn.btn-waring</button> <button class="btn btn-success">.btn.btn-success</button> <button class="btn btn-danger">.btn.btn-danger</button>
 
@@ -161,8 +159,8 @@ nodeppt：https://github.com/ksky521/nodePPT
 <button class="btn btn-success"><i class="fa fa-share mr5"></i></button>
 
 ---
+
 ## icons: Font Awesome
-------
 
 <i class="fa fa-apple"></i>
 <i class="fa fa-android"></i>
@@ -180,7 +178,6 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 ## 代码格式化
 ### 使用 `highlightjs` 进行语法高亮
-----
 <div class="columns-2">
     <pre><code class="javascript">(function(window, document){
     var a = 1;
@@ -208,9 +205,9 @@ nodeppt：https://github.com/ksky521/nodePPT
     </code></pre>
 </div>
 
-[slide data-on-enter="testScriptTag"]
+---
+
 ## 支持 HTML 和 markdown 语法混编
-----
 
 <div class="file-setting">
     <p>这是html</p>
@@ -234,7 +231,6 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 ---
 ## iframe效果
-----
 <iframe data-src="http://www.baidu.com" src="about:blank;"></iframe>
 
 ---
@@ -242,7 +238,6 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 ---
 ## 支持多种皮肤
-----
 
 <div class="columns6">
     <a href="?theme=color" class="label-danger">color</a>
@@ -254,11 +249,10 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 ---
 # 多窗口和远程控制演示
-
 ---
+
 ## 多窗口演示
 ## 双屏演示不out！
----
 本页面网址改成 [url?_multiscreen=1](?_multiscreen=1)，支持多屏演示哦！
 
 跟powderpoint/keynote一样的双屏功能，带有备注信息。
