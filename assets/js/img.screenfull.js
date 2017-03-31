@@ -1,7 +1,7 @@
 (function(window, document) {
     var sf = function($imgs) {
         $imgs.forEach(function($img) {
-            if ($img.classname.indexOf('no-screenfull') === -1) {
+            if ($img.className.indexOf('no-screenfull') === -1) {
                 $img.addEventListener('click', function () {
                     show(this);
                 }, false);

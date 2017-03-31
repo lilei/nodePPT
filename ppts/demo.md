@@ -9,6 +9,7 @@ usemathjax: yes
 ---
 # nodePPT
 ## 这可能是迄今为止最好的网页版演示库
+
 <small style="vertical-align:middle;display:inline-block"><iframe src="http://ghbtns.com/github-btn.html?user=ksky521&repo=nodeppt&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20" style="width:110px;height:20px;  background-color: transparent;"></iframe><iframe src="http://ghbtns.com/github-btn.html?user=ksky521&repo=nodeppt&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20" style="width:110px;height:20px;  background-color: transparent;"></iframe><iframe src="http://ghbtns.com/github-btn.html?user=ksky521&repo=nodeppt&type=follow&count=false" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="20" style="width:170px;height:20px;  background-color: transparent;"></iframe></small>
 ---
 ## 为什么选择nodePPT
@@ -104,6 +105,9 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 ---
 ## 表格示例
+
+
+
 ### 市面上主要的css预处理器：Less\Sass\Stylus
 ---
 | Less | Sass | Stylus
@@ -112,7 +116,6 @@ nodeppt：https://github.com/ksky521/nodePPT
 扩展名 | .less | .scss/.sass | .styl
 特点 | 老牌，用户多，支持js解析 | 功能全，有成型框架，发展快 | 语法多样，小众
 案例/框架 | [Bootstrap](http://getbootstrap.com/) | [Compass](http://beta.compass-style.org) [Bootstrap](http://getbootstrap.com/css/#sass) [Foundation](http://foundation.zurb.com/) [Bourbon](http://bourbon.io) [Base.Sass](https://github.com/jsw0528/base.sass) |
-
 
 ---
 ## text
@@ -173,7 +176,6 @@ nodeppt：https://github.com/ksky521/nodePPT
 <i class="fa fa-file-video-o"></i>
 <i class="fa fa-cog"></i>
 
-
 ---
 
 ## 代码格式化
@@ -230,7 +232,6 @@ nodeppt：https://github.com/ksky521/nodePPT
 }
 </style>
 
-
 ---
 ## iframe效果
 ----
@@ -277,6 +278,7 @@ nodeppt：https://github.com/ksky521/nodePPT
     <img src="/girl.jpg" height="450">
     <img src="/girl.jpg" height="450">
     <img src="/girl.jpg" height="450">
+
 </div>
 ========
 ## 演示earthquake转场效果
@@ -289,16 +291,15 @@ nodeppt：https://github.com/ksky521/nodePPT
 </div>
 [/magic]
 
-
 ---
 [magic data-transition="cover-circle"]
 ## 换个magic动效效果
 ----
+
 ![](/girl.jpg)
 ====
 ![](/girl.jpg)
 [/magic]
-
 
 ---
 ## 动效：fadeIn
@@ -341,16 +342,16 @@ nodeppt：https://github.com/ksky521/nodePPT
 ---
 ## 20种转场动效随心换
 ----
- * <a href="?transition=slide">slide</a>/<a href="?transition=slide2">slide2</a>/<a href="?transition=slide3">slide3</a>
- * [newspaper](?transition=newspaper)
- * [glue](?transition=glue)
- * [kontext](?transition=kontext)/[vkontext](?transition=vkontext)
- * [move](?transition=move)/[circle](?transition=circle)
- * [horizontal](?transition=horizontal)/[horizontal3d](?transition=horizontal3d)
- * [vertical3d](?transition=vertical3d)
- * [zoomin](?transition=zoomin)/[zoomout](?transition=zoomout)
- * [cards](?transition=cards)
- * [earthquake](?transition=earthquake)/[pulse](?transition=pulse)/[stick](?transition=stick)...
+* <a href="?transition=slide">slide</a>/<a href="?transition=slide2">slide2</a>/<a href="?transition=slide3">slide3</a>
+* [newspaper](?transition=newspaper)
+* [glue](?transition=glue)
+* [kontext](?transition=kontext)/[vkontext](?transition=vkontext)
+* [move](?transition=move)/[circle](?transition=circle)
+* [horizontal](?transition=horizontal)/[horizontal3d](?transition=horizontal3d)
+* [vertical3d](?transition=vertical3d)
+* [zoomin](?transition=zoomin)/[zoomout](?transition=zoomout)
+* [cards](?transition=cards)
+* [earthquake](?transition=earthquake)/[pulse](?transition=pulse)/[stick](?transition=stick)...
 
 
 [slide data-transition="glue"]
@@ -402,7 +403,6 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 按下【H】键查看效果
 
-
 ---
 ## 支持zoom.js
 ----
@@ -415,7 +415,6 @@ nodeppt：https://github.com/ksky521/nodePPT
 ----
 
 ![小萝莉](/girl.jpg "小萝莉")
-
 
 ---
 
@@ -451,7 +450,6 @@ markdown语法如下：
 按下键盘【B/Y/R/G/M】：更换颜色，按下【1~4】：更换粗细
 
 按下键盘【C】键：清空画板
-
 
 ---
 
