@@ -1,9 +1,9 @@
 title: nodeppt markdown 演示
-speaker: 三水清
-url: https://github.com/ksky521/nodePPT
+speaker: lilei
+url: https://github.com/lilei/nodePPT
 transition: slide3
 files: /js/demo.js,/css/demo.css,/js/zoom.js
-theme: moon
+theme: easy
 usemathjax: yes
 
 ---

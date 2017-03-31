@@ -11,3 +11,4 @@
 .vs/
 bin/nodeppt.js
 assets/.sass-cache/
+assets/scss/.sass-cache/

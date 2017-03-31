@@ -40,6 +40,7 @@ h1, h2, h3 {
     @include text-shadow(1px 2px 0px $bg-color,3px 5px 0px rgba(0, 0, 0, 0.2));
     letter-spacing: 4px;
     font-weight: bolder;
+    text-align: left;
 }
 
 h1 {
@@ -100,6 +101,7 @@ slides > slide{
         background-color: $bg-color;
     }
     .slide-wrapper{
+        text-align: left;
         strong{
             @include text-shadow(none);
             font-weight: bolder;
@@ -155,3 +157,4 @@ slides > slide{
 .progress span{
     background: $progress-color;
 }
+
