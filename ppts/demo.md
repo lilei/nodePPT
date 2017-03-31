@@ -6,11 +6,11 @@ files: /js/demo.js,/css/demo.css,/js/zoom.js
 theme: moon
 usemathjax: yes
 
-[slide]
+---
 # nodePPT
 ## 这可能是迄今为止最好的网页版演示库
 <small style="vertical-align:middle;display:inline-block"><iframe src="http://ghbtns.com/github-btn.html?user=ksky521&repo=nodeppt&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20" style="width:110px;height:20px;  background-color: transparent;"></iframe><iframe src="http://ghbtns.com/github-btn.html?user=ksky521&repo=nodeppt&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20" style="width:110px;height:20px;  background-color: transparent;"></iframe><iframe src="http://ghbtns.com/github-btn.html?user=ksky521&repo=nodeppt&type=follow&count=false" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="20" style="width:170px;height:20px;  background-color: transparent;"></iframe></small>
-[slide]
+---
 ## 为什么选择nodePPT
 ----
 * 基于GFM的markdown语法编写 {:&.rollIn}
@@ -24,23 +24,23 @@ usemathjax: yes
 * 支持进入/退出回调，做在线demo很方便
 
 
-[slide]
+---
 # 基本语法和样式演示
 
-[slide]
+---
 
 # 封面样式
 ## h1是作为封面用的，内部的都用h2
 <small>演讲者：xxx</small>
 
-[slide]
+---
 
 # 样式展示 {:&.flexbox.vleft}
 > nodePPT 让每个人都爱上做分享！
 
 
 
-[slide]
+---
 ## 基本语法指南
 ----
 
@@ -74,12 +74,12 @@ usemathjax: yes 启用MathJax渲染公式
 
 完全style写法，更加灵活，视频背景、repeat背景更不在话下
 
-[slide]
+---
 ## 使用LaTex公式：
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.    s = ut + \frac{1}{2}at^2 $$
 矩阵：\\( x = {\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \end{bmatrix}}  \\)
 
-[slide]
+---
 ## 支持.class/#id/自定义属性样式
 ----
 
@@ -90,7 +90,7 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.    s = ut + \frac{1}{2}at^2 $$
 父元素样式使用&：{:&.class}
 ```
 
-[slide]
+---
 
 ## 主页面样式
 ### ----是上下分界线
@@ -102,7 +102,7 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 
 
-[slide]
+---
 ## 表格示例
 ### 市面上主要的css预处理器：Less\Sass\Stylus
 ---
@@ -114,7 +114,7 @@ nodeppt：https://github.com/ksky521/nodePPT
 案例/框架 | [Bootstrap](http://getbootstrap.com/) | [Compass](http://beta.compass-style.org) [Bootstrap](http://getbootstrap.com/css/#sass) [Foundation](http://foundation.zurb.com/) [Bourbon](http://bourbon.io) [Base.Sass](https://github.com/jsw0528/base.sass) |
 
 
-[slide]
+---
 ## text
 -----
 
@@ -129,13 +129,13 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 <span class="yellow">.yellow</span><span class="yellow2">.yellow2</span><span class="yellow3">.yellow3</span><span class="green">.green</span><span class="green2">.green2</span><span class="green3">.green3</span>
 
-[slide]
+---
 ## label and link
 <span class="label label-primary">.label.label-primary</span><span class="label label-warning">.label.label-warning</span><span class="label label-danger">.label.label-danger</span><span class="label label-default">.label.label-default</span><span class="label label-success">.label.label-success</span><span class="label label-info">.label.label-info</span>
 
 <a href="#">link style</a> <mark>mark</mark>
 
-[slide]
+---
 ## blockquote
 ----
 
@@ -146,7 +146,7 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 > 这是一个class是：pull-right的blockquote <small>small一下</small> {:&.pull-right}
 
-[slide]
+---
 ## buttons
 ----
 
@@ -157,7 +157,7 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 <button class="btn btn-success"><i class="fa fa-share mr5"></i></button>
 
-[slide]
+---
 ## icons: Font Awesome
 ------
 
@@ -174,7 +174,7 @@ nodeppt：https://github.com/ksky521/nodePPT
 <i class="fa fa-cog"></i>
 
 
-[slide]
+---
 
 ## 代码格式化
 ### 使用 `highlightjs` 进行语法高亮
@@ -231,15 +231,15 @@ nodeppt：https://github.com/ksky521/nodePPT
 </style>
 
 
-[slide]
+---
 ## iframe效果
 ----
 <iframe data-src="http://www.baidu.com" src="about:blank;"></iframe>
 
-[slide]
+---
 # 内置多套皮肤
 
-[slide]
+---
 ## 支持多种皮肤
 ----
 
@@ -251,10 +251,10 @@ nodeppt：https://github.com/ksky521/nodePPT
     <a href="?theme=light" class="label-warning">light</a>
 </div>
 
-[slide]
+---
 # 多窗口和远程控制演示
 
-[slide]
+---
 ## 多窗口演示
 ## 双屏演示不out！
 ---
@@ -262,13 +262,13 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 跟powderpoint/keynote一样的双屏功能，带有备注信息。
 
-[slide]
+---
 # nodePPT动效和转场演示
 
-[slide]
+---
 # 第一部分：介绍单页slide内动效
 
-[slide]
+---
 
 [magic data-transition="earthquake"]
 ## 演示magic标签效果
@@ -290,7 +290,7 @@ nodeppt：https://github.com/ksky521/nodePPT
 [/magic]
 
 
-[slide]
+---
 [magic data-transition="cover-circle"]
 ## 换个magic动效效果
 ----
@@ -300,7 +300,7 @@ nodeppt：https://github.com/ksky521/nodePPT
 [/magic]
 
 
-[slide]
+---
 ## 动效：fadeIn
 ----
 * 列表支持渐显动效哦 {:&.fadeIn}
@@ -313,7 +313,7 @@ nodeppt：https://github.com/ksky521/nodePPT
     * moveIn
     * zoomIn
 
-[slide]
+---
 ## 动效：zoomIn
 ----
 * 列表支持渐显动效哦 {:&.zoomIn}
@@ -324,7 +324,7 @@ nodeppt：https://github.com/ksky521/nodePPT
     * moveIn
     * zoomIn
 
-[slide]
+---
 ## 动效：bounceIn
 ----
 * 列表支持渐显动效哦 {:&.bounceIn}
@@ -335,10 +335,10 @@ nodeppt：https://github.com/ksky521/nodePPT
     * moveIn
     * zoomIn
 
-[slide]
+---
 # nodePPT支持多达20多个转场动效
 
-[slide]
+---
 ## 20种转场动效随心换
 ----
  * <a href="?transition=slide">slide</a>/<a href="?transition=slide2">slide2</a>/<a href="?transition=slide3">slide3</a>
@@ -386,15 +386,15 @@ nodeppt：https://github.com/ksky521/nodePPT
 
 &#91;slide data-transition="vertical3d"&#93;
 
-[slide]
+---
 # nodePPT快捷键介绍
-[slide]
+---
 ## 快速翻页
 ----
 1. 输入页码，然后enter
 2. 使用O键，开启纵览模式，然后翻页
 
-[slide]
+---
 ## 动效样式强调
 ----
 
@@ -403,13 +403,13 @@ nodeppt：https://github.com/ksky521/nodePPT
 按下【H】键查看效果
 
 
-[slide]
+---
 ## 支持zoom.js
 ----
 
 增加了zoom.js的支持，在演示过程中使用`alt`+鼠标点击，则点击的地方就开始放大，再次`alt+click`则回复原状
 
-[slide]
+---
 
 ## 图片，点击全屏
 ----
@@ -417,14 +417,14 @@ nodeppt：https://github.com/ksky521/nodePPT
 ![小萝莉](/girl.jpg "小萝莉")
 
 
-[slide]
+---
 
 ## 图片，禁止全屏
 ----
 
 <img src="/girl.jpg" class="no-screenfull">
 
-[slide]
+---
 [note]
 ##这里是note
 
@@ -441,7 +441,7 @@ markdown语法如下：
 这里是note，{ 要换成中括号啊！！
 {/note]
 ```
-[slide]
+---
 
 ## 使用画笔
 ### 使用画笔做标记哦~你也可以随便作画啊！
@@ -453,7 +453,7 @@ markdown语法如下：
 按下键盘【C】键：清空画板
 
 
-[slide]
+---
 
 ## 宽度不够？？
 ---
@@ -466,7 +466,7 @@ markdown语法如下：
 特点 | 老牌，用户多，支持js解析 | 功能全，有成型框架，发展快 | 语法多样，小众
 案例/框架 | [Bootstrap](http://getbootstrap.com/) | [compass](http://compass-style.org) [bourbon](http://bourbon.io) |
 
-[slide]
+---
 ## 使用overview模式
 ---
 按下键盘【O】键。看下效果。
@@ -477,11 +477,11 @@ markdown语法如下：
 
 
 
-[slide]
+---
 
 # 介绍下nodePPT的函数和事件
 
-[slide]
+---
 支持单个slide事件：build/enter/leave/keypress，事件统一在&#91;slide&#93;
 中使用`data-on-X`来指定一个全局函数名
 
@@ -507,7 +507,7 @@ markdown语法如下：
 <p id="incallback"></p>
 <p id="outcallback"></p>
 
-[slide]
+---
 ## 远程执行函数
 ----
 在多屏和远程模式中，可以使用`proxyFn`来远程执行函数。
@@ -528,7 +528,7 @@ function globalFunc(){
     }
 </script>
 
-[slide]
+---
 
 ## 更多玩法
 ---

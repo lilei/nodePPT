@@ -8,3 +8,6 @@
 /npm-debug.log
 
 /publish
+.vs/
+bin/nodeppt.js
+assets/.sass-cache/
